@@ -88,6 +88,18 @@ a .bgdark {
   height: 500px;
   background-color: grey;
 }
+.footer {
+  background-color: rgb(68, 64, 64);
+  padding: 50px;
+  margin: 0;
+  text-align: center;
+}
+.footer a {
+  color: white;
+}
+.footer a:hover {
+  color: black;
+}
 @media (max-width: 880px) {
   .bg {
     width: 100%;
