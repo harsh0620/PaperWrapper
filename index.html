@@ -20,6 +20,7 @@
     <title>Paper Wrapper</title>
   </head>
   <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
     <div class="navbar-wrapper contianer-fluid">
       <nav class="navbar navbar-expand-lg fixed-top nv navbar-dark">
         <a class="navbar-brand nav-link" id="paper" href="index.html"><img src="PW.png" alt="pw" class="pw"></a>
@@ -381,6 +382,27 @@
         
       </div>
     </footer>
+    <script>
+      //Get the button
+      var mybutton = document.getElementById("myBtn");
+      
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+      </script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
