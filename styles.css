@@ -45,6 +45,7 @@ a .bgdark {
 .img {
   width: 350px;
   height: 500px;
+  border-radius: 40px;
 }
 .centered {
   font-weight: bold;
@@ -89,16 +90,30 @@ a .bgdark {
   background-color: grey;
 }
 .footer {
-  background-color: rgb(68, 64, 64);
+  background-color: rgb(26, 26, 26);
   padding: 50px;
   margin: 0;
   text-align: center;
 }
 .footer a {
-  color: white;
+  color: red;
 }
 .footer a:hover {
   color: black;
+}
+#about {
+  margin: 40px 0 40px 0px;
+}
+#about h1 {
+  margin: 20px 0 40px 0px;
+  text-align: center;
+}
+.abw {
+  border: white;
+  border-style: solid;
+  padding: 20px;
+  text-align: justify;
+  font-size: 25px;
 }
 @media (max-width: 880px) {
   .bg {
@@ -133,4 +148,21 @@ a .bgdark {
   .course {
     margin: 80px 0 0 80px;
   }
+}
+#self {
+  text-align: center;
+}
+#self h1 {
+  margin: 20px 0 20px 0;
+}
+#self p {
+  font-size: 20px;
+  margin: 30px 0 30px 0;
+}
+#self a {
+  color: white;
+}
+#self a:hover {
+  color: red;
+  text-decoration: none;
 }
