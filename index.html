@@ -16,14 +16,14 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
-    <link rel="shortcut icon" href="PW.png" type="ico" />
+    <link rel="shortcut icon" href="images/PW.png" type="ico" />
     <title>Paper Wrapper</title>
   </head>
   <body>
     <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
     <div class="navbar-wrapper contianer-fluid">
       <nav class="navbar navbar-expand-lg fixed-top nv navbar-dark">
-        <a class="navbar-brand nav-link" id="paper" href="index.html"><img src="PW.png" alt="pw" class="pw"></a>
+        <a class="navbar-brand nav-link" id="paper" href="index.html"><img src="images/PW.png" alt="pw" class="pw"></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -67,13 +67,13 @@
       >
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-100 bg" src="bg.jpg" alt="First slide" />
+            <img class="d-block w-100 bg" src="images/bg.jpg" alt="First slide" />
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100 bg" src="bg3.jpg" alt="Second slide" />
+            <img class="d-block w-100 bg" src="images/bg3.jpg" alt="Second slide" />
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100 bg" src="bg4.jpg" alt="Third slide" />
+            <img class="d-block w-100 bg" src="images/bg4.jpg" alt="Third slide" />
           </div>
         </div>
       </div>
@@ -108,62 +108,74 @@
       </dic>
       <div id="resources">
         <div class="row">
-          <div class="col-12 resources"><h1>Resources</h1></div>
-        </div>
-        <div class="row">
-          <div class="col-12 resources"><h1>For Second year CSE</h1></div>
+          <div class="col-12"><h1>Resources</h1></div>
         </div>
       </div>
+        <div class="row">
+          <div class="col-12 resources"><h1 class="dtoggle"> <a  data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"> For Second year CSE  <img class="down" src="images/down.png" alt="down" /></a>
+           </h1></div>
+          
+        </div>
+      
+      <div class="collapse multi-collapse" id="multiCollapseExample1">
       <div class="row course">
         <div class="col-lg-4 col-12 sub">
-          <a href="Maths-Numerical Methods By M.K.Jain,S.R.K.Iyengar & R.K.Jain.pdf">
-            <img src="math.jpg" alt="math" class="img math" />
+          <a href="pdfs/study/Maths-Numerical Methods By M.K.Jain,S.R.K.Iyengar & R.K.Jain.pdf">
+            <img src="images/math.jpg" alt="math" class="img math" />
             <div class="centered"><p>Maths-III</p></div>
           </a>
         </div>
         <div class="col-lg-4 col-12 sub">
-          <a href="cse.html">
-            <img src="cse.jpg" alt="math" class="img math" />
+          <a href="Pages/cse.html">
+            <img src="images/cse.jpg" alt="math" class="img math" />
             <div class="centered"><p>OOP with C++</p></div></a
           >
         </div>
         <div class="col-lg-4 col-12 sub">
-          <a href="digital-logic-and-computer-design-by-m-morris-mano-2nd-edition.pdf">
-            <img src="cse.jpg" alt="math" class="img math" />
+          <a href="pdfs/study/digital-logic-and-computer-design-by-m-morris-mano-2nd-edition.pdf">
+            <img src="images/cse.jpg" alt="math" class="img math" />
             <div class="centered"><p>Digital Logic Design</p></div>
           </a>
         </div>
       </div>
       <div class="row course">
         <div class="col-lg-4 col-12 sub">
-          <a href="EMI-A_K.Sawhney-A_course_in_Electrical_and_E.pdf">
-            <img src="electrical.jpg" alt="math" class="img math" />
-            <div class="centered"><p>EMI-error large file</p></div>
+          <a href="https://drive.google.com/drive/folders/1H8FK3oDc9ibmaBCBv50jkNG1c6DCNqV7?usp=sharing">
+            <img src="images/electrical.jpg" alt="math" class="img math" />
+            <div class="centered"><p>EMI</p></div>
           </a>
         </div>
         <div class="col-lg-4 col-12 sub">
-          <a href="ECE-AlleyAtwood-ElectronicEngineering.pdf">
-            <img src="ece.jpg" alt="math" class="img math" />
+          <a href="pdfs/study/ECE-AlleyAtwood-ElectronicEngineering.pdf">
+            <img src="images/ece.jpg" alt="math" class="img math" />
             <div class="centered"><p>Analog Electronics</p></div></a
           >
         </div>
         <div class="col-lg-4 col-12 sub">
-          <a href="physics.html">
-            <img src="english.jpg" alt="math" class="img math" />
+          <a href="pdfs/study/Human_Values.pdf">
+            <img src="images/english.jpg" alt="math" class="img math" />
             <div class="centered"><p>Human Values</p></div>
           </a>
         </div>
       </div>
-      
+      <div class="row course">
+        <div class="col-lg-4 col-12 sub"> <a href="Pages/pyp.html">
+          <img src="images/paper.png" alt="math" class="img math" />
+          <div class="centered"><p>5 PY SEMESTER PAPERS</p></div></a
+        ></div>
+      </div>
+    </div>
     <div class="container">
       <div>
-        <div class="row" id="cse">
-          <div class="col-12 resources"><h1>FOR CSE ONLY</h1></div>
-        </div>
+        <div class="row">
+          <div class="col-12 resources"><h1 class="dtoggle"><a  data-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample2"> FOR CSE ONLY  <img class="down" src="images/down.png" alt="down" /></a></h1></div>
+      
+            </div>
+        <div class="collapse multi-collapse" id="multiCollapseExample2">
         <div class="row course">
           <div class="col-lg-4 col-12 sub">
             <a href="https://cc-mnnit.github.io/2018-19-Classes/">
-              <img src="mnnit.png" alt="math" class="img math" />
+              <img src="images/mnnit.png" alt="math" class="img math" />
               <div class="centered">
                 <p>Full guide to cse by mnnit Allahabad</p>
               </div></a
@@ -171,7 +183,7 @@
           </div>
           <div class="col-lg-4 col-12 sub">
             <a href="https://codeforces.com/blog/entry/66859">
-              <img src="cdiv3.png" alt="math" class="img math" />
+              <img src="images/cdiv3.png" alt="math" class="img math" />
               <div class="centered">
                 <p>Codeforces- Link to all DIV-3 Contest</p>
               </div></a
@@ -181,7 +193,7 @@
             <a
               href="https://www.quora.com/What-is-a-list-of-data-structures-that-a-competitive-programmer-must-know/answer/Sameer-Gulati-3?ch=10&share=dcc3b398&srid=oeMh"
             >
-              <img src="datasq.png" alt="math" class="img math" />
+              <img src="images/datasq.png" alt="math" class="img math" />
               <div class="centered">
                 <p>
                   Quora- Data structure by Google employee
@@ -195,7 +207,7 @@
             <a
               href="https://drive.google.com/drive/folders/1BnaLuUsP7ZGjc82ulA4jSgvVnyTkWW4P"
             >
-              <img src="gdrive.png" alt="math" class="img math" />
+              <img src="images/gdrive.png" alt="math" class="img math" />
               <div class="centered">
                 <p>Full Stack Web Dev MEN stack</p>
               </div></a
@@ -205,7 +217,7 @@
             <a
               href="https://www.codechef.com/certification/data-structures-and-algorithms/prepare#foundation"
             >
-              <img src="codechefdsalgo.png" alt="math" class="img math" />
+              <img src="images/codechefdsalgo.png" alt="math" class="img math" />
               <div class="centered">
                 <p>Codechef DS|ALGO</p>
               </div></a
@@ -213,7 +225,7 @@
           </div>
           <div class="col-lg-4 col-12 sub">
             <a href="book.pdf">
-              <img src="book.png" alt="math" class="img math" />
+              <img src="images/book.png" alt="math" class="img math" />
               <div class="centered">
                 <p>
                   CP HANDBOOK
@@ -222,12 +234,13 @@
             >
           </div>
         </div>
+        
         <div class="row course">
           <div class="col-lg-4 col-12 sub">
             <a
               href="https://mega.nz/folder/XUhTlRrJ#989DJPX3j-Fg-QRNvcuIHg"
             >
-              <img src="cse.jpg" alt="math" class="img math" />
+              <img src="images/cse.jpg" alt="math" class="img math" />
               <div class="centered">
                 <p>Full DSA GFG</p>
               </div></a
@@ -241,142 +254,148 @@
           </div>
         </div>
       </div>
+      </div>
     </div>
-    <div class="row" id="resources">
-      <div class="col-12 resources "><h1>For First Year-Currently Not Updated</h1></div>
-    </div>
+    <div class="row">
+       <div class="col-12 resources "><h1><a  data-toggle="collapse" href="#multiCollapseExample3" role="button" aria-expanded="false" aria-controls="multiCollapseExample3"> For First Year-Currently Not Updated <img class="down" src="images/down.png" alt="down" /></a></h1></div>
+    
+     </div>
+    <div class="collapse multi-collapse" id="multiCollapseExample3">
     <div class="row course">
       <div class="col-lg-4 col-12 sub">
-        <a href="maths.html">
-          <img src="math.jpg" alt="math" class="img math" />
+        <a href="Pages/maths.html">
+          <img src="images/math.jpg" alt="math" class="img math" />
           <div class="centered"><p>Maths</p></div>
         </a>
       </div>
       <div class="col-lg-4 col-12 sub">
-        <a href="chemistry.html">
-          <img src="chemistry.jpg" alt="math" class="img math" />
+        <a href="Pages/chemistry.html">
+          <img src="images/chemistry.jpg" alt="math" class="img math" />
           <div class="centered"><p>Chemistry</p></div></a
         >
       </div>
       <div class="col-lg-4 col-12 sub">
-        <a href="physics.html">
-          <img src="physics.jpg" alt="math" class="img math" />
+        <a href="Pages/physics.html">
+          <img src="images/physics.jpg" alt="math" class="img math" />
           <div class="centered"><p>Physics</p></div>
         </a>
       </div>
     </div>
     <div class="row course">
       <div class="col-lg-4 col-12 sub">
-        <a href="mechanical.html">
-          <img src="mechanical.jpg" alt="math" class="img math" />
+        <a href="Pages/mechanical.html">
+          <img src="images/mechanical.jpg" alt="math" class="img math" />
           <div class="centered"><p>Mechanical</p></div>
         </a>
       </div>
       <div class="col-lg-4 col-12 sub">
-        <a href="mechanics.html">
-          <img src="mechanics.jpg" alt="math" class="img math" />
+        <a href="Pages/mechanics.html">
+          <img src="images/mechanics.jpg" alt="math" class="img math" />
           <div class="centered"><p>Mechanics</p></div></a
         >
       </div>
       <div class="col-lg-4 col-12 sub">
-        <a href="cse.html">
-          <img src="cse.jpg" alt="math" class="img math" />
+        <a href="Pages/cse.html">
+          <img src="images/cse.jpg" alt="math" class="img math" />
           <div class="centered"><p>CSE</p></div></a
         >
       </div>
     </div>
     <div class="row course">
       <div class="col-lg-4 col-12 sub">
-        <a href="electrical.html">
-          <img src="electrical.jpg" alt="math" class="img math" />
+        <a href="Pages/electrical.html">
+          <img src="images/electrical.jpg" alt="math" class="img math" />
           <div class="centered"><p>Electrical</p></div>
         </a>
       </div>
       <div class="col-lg-4 col-12 sub">
-        <a href="evs.html">
-          <img src="evs.jpg" alt="math" class="img math" />
+        <a href="Pages/evs.html">
+          <img src="images/evs.jpg" alt="math" class="img math" />
           <div class="centered"><p>EVS</p></div></a
         >
       </div>
       <div class="col-lg-4 col-12 sub">
-        <a href="ece.html">
-          <img src="ece.jpg" alt="math" class="img math" />
+        <a href="Pages/ece.html">
+          <img src="images/ece.jpg" alt="math" class="img math" />
           <div class="centered"><p>ECE</p></div></a
         >
       </div>
     </div>
     <div class="row course">
-      <div class="col-lg-4 col-12 sub"> <a href="pyp.html">
-        <img src="paper.png" alt="math" class="img math" />
+      <div class="col-lg-4 col-12 sub"> <a href="Pages/pyp.html">
+        <img src="images/paper.png" alt="math" class="img math" />
         <div class="centered"><p>5 PY SEMESTER PAPERS</p></div></a
       ></div>
       <div class="col-lg-4 col-12 sub">
-        <a href="english.html">
-          <img src="english.jpg" alt="math" class="img math" />
+        <a href="Pages/english.html">
+          <img src="images/english.jpg" alt="math" class="img math" />
           <div class="centered"><p>English</p></div></a
         >
       </div>
       <div class="col-lg-4 col-12 sub"></div>
     </div>
+    </div>
   </div>
     <div class="container" id="self">
       <div class="row">
-        <div class="col-12"><h1>Self Dev Books</h1></div>
+        <div class="col-12 resources"><h1><a  data-toggle="collapse" href="#multiCollapseExample4" role="button" aria-expanded="false" aria-controls="multiCollapseExample4"> Self Dev Books  <img class="down" src="images/down.png" alt="down" /></a></h1></div>
       </div>
+      <div class="collapse multi-collapse" id="multiCollapseExample4">
       <div class="row">
         <div class="col-lg-3 col-12">
-          <a href="two-awesome-hours.pdf"><p>Two Awesome Hours</p></a>
+          <a href="pdfs/selfdev/two-awesome-hours.pdf"><p>Two Awesome Hours</p></a>
         </div>
         <div class="col-lg-3 col-12">
-          <a href="how-to-win-friends-and-influence-people.pdf"
+          <a href="pdfs/selfdev/how-to-win-friends-and-influence-people.pdf"
             ><p>How to win Friends and Influence People</p></a
           >
         </div>
         <div class="col-lg-3 col-12">
-          <a href="the-alchemist.pdf"><p>The Alchemist</p></a>
+          <a href="pdfs/selfdev/the-alchemist.pdf"><p>The Alchemist</p></a>
         </div>
         <div class="col-lg-3 col-12">
-          <a href="the-power-of-habit.pdf"><p>The Power of Habit</p></a>
+          <a href="pdfs/selfdev/the-power-of-habit.pdf"><p>The Power of Habit</p></a>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-3 col-12">
-          <a href="thich-nhat-hanh.pdf"
+          <a href="pdfs/selfdev/thich-nhat-hanh.pdf"
             ><p>THICH NHAT HANH THe Art of communicating</p></a
           >
         </div>
         <div class="col-lg-3 col-12">
-          <a href="the-5-am-club.pdf"><p>The 5 AM Club</p></a>
+          <a href="pdfs/selfdev/the-5-am-club.pdf"><p>The 5 AM Club</p></a>
         </div>
         <div class="col-lg-3 col-12">
-          <a href="the-crossroad-of-should-and-must.pdf"
+          <a href="pdfs/selfdev/the-crossroad-of-should-and-must.pdf"
             ><p>The Crossroad of Should and Must</p></a
           >
         </div>
         <div class="col-lg-3 col-12">
-          <a href="the-gift-of-imperfection.pdf"
+          <a href="pdfs/selfdev/the-gift-of-imperfection.pdf"
             ><p>The Gift of Imperfection</p></a
           >
         </div>
       </div>
       <div class="row">
         <div class="col-lg-3 col-12">
-          <a href="thich-nhat-hanh2.pdf"
+          <a href="pdfs/selfdev/thich-nhat-hanh2.pdf"
             ><p>THICH NHAT HANH The Art of power</p></a
           >
         </div>
         <div class="col-lg-3 col-12">
-          <a href="rich-dad-poor-dad.pdf"><p>Rich Dad Poor Dad</p></a>
+          <a href="pdfs/selfdev/rich-dad-poor-dad.pdf"><p>Rich Dad Poor Dad</p></a>
         </div>
         <div class="col-lg-3 col-12">
-          <a href="think-and-grow-rich.pdf"><p>Think and Grow Rich</p></a>
+          <a href="pdfs/selfdev/think-and-grow-rich.pdf"><p>Think and Grow Rich</p></a>
         </div>
         <div class="col-lg-3 col-12">
-          <a href="the-key-to-success-and-long-term-happiness.pdf"
+          <a href="pdfs/selfdev/the-key-to-success-and-long-term-happiness.pdf"
             ><p>The Key to success and long term happiness</p></a
           >
         </div>
       </div>
+    </div>
     </div>
     <div class="fg">
       <div
@@ -386,22 +405,22 @@
       >
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-100 fg" src="MPUAT.jpg" alt="First slide" />
+            <img class="d-block w-100 fg" src="images/MPUAT.jpg" alt="First slide" />
           </div>
           <div class="carousel-item">
             <img
               class="d-block w-100 fg"
-              src="CTAEGATE.jpg"
+              src="images/CTAEGATE.jpg"
               alt="Second slide"
             />
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100 fg" src="CTAECSE.jpg" alt="Third slide" />
+            <img class="d-block w-100 fg" src="images/CTAECSE.jpg" alt="Third slide" />
           </div>
           <div class="carousel-item">
             <img
               class="d-block w-100 fg"
-              src="CTAEDEVFEST.jpg"
+              src="images/CTAEDEVFEST.jpg"
               alt="FOURTH slide"
             />
           </div>
@@ -435,7 +454,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-12"><img src="PW.png" alt="pw" class="pw"></div>
+          <div class="col-12"><img src="images/PW.png" alt="pw" class="pw"></div>
           <div class="col-12">
           <h5>@Copyright PaperWrapper2020</h5>
           <h6>Created with ❤ </h6>
